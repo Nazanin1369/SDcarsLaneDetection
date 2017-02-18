@@ -44,3 +44,7 @@ Image after color detection
 Image after color and Region detection
 
 ![alt tag](./imgs/region-lane-selection.jpg)
+
+Image after mixing color and region selection images:
+
+![alt tag](./imgs/region-color-lane-selection.jpg)

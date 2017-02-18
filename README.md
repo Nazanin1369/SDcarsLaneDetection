@@ -48,3 +48,7 @@ Image after color and Region detection
 Image after mixing color and region selection images:
 
 ![alt tag](./imgs/region-color-lane-selection.jpg)
+
+As it happens, lane lines are not always the same color, and even lines of the same color under different lighting conditions (day, night, etc) may fail to be detected by our simple color selection. What we need is to take our algorithm to the next level to detect lines of any color using sophisticated computer vision methods.
+
+

@@ -21,3 +21,6 @@ def copyImage(image):
 def displayAndSaveImage(img, path):
     plt.imshow(img)
     mpimg.imsave(path, img)
+
+def saveImageWithCmap(img, path, cmap):
+    mpimg.imsave(path, img, cmap=cmap)

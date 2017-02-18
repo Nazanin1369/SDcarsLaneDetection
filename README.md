@@ -1,7 +1,7 @@
 
-### Autonomous car lane detection
+## Autonomous car lane detection
 
-#### Overview
+### Overview
 
 Self-driving car needs percieve the world as humans do when they drive. 
 Humans use their eyes to figure out how fast they go, where the lane lines are and where are the turns. Car does not have eyes but
@@ -19,7 +19,7 @@ Features of images to detect lane lines are:
   * position of the image
   
   
-#### Setup
+### Setup
   
 Language level and libraries used:
   * Python 3
@@ -27,7 +27,15 @@ Language level and libraries used:
   * Matplotlib
   
   
-#### Results
+### Run
+Execute the following command from the root directory:
+
+  ```
+    python3 main.py 
+  ```
+  
+  
+### Results
 
 Image after color detection
 

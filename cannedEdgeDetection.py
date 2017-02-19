@@ -8,7 +8,7 @@ def grayOutImage(image):
     return gray
 
 
-def cannedImage(grayedImage, kernel_size=3, low_threshold=50, high_threshold=90):
+def cannedImage(grayedImage, kernel_size=5, low_threshold=50, high_threshold=150):
     # Define a kernel size for Gaussian smoothing / blurring
     blur_gray = cv2.GaussianBlur(grayedImage,(kernel_size, kernel_size), 0)
     edges = cv2.Canny(blur_gray, low_threshold, high_threshold)

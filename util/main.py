@@ -92,7 +92,7 @@ def defineLanesWithHoughTransformAndRegionInterest(image, name):
 # read images
 image1 = imgUtil.readImage('./imgs/lane.jpg')
 image2 = imgUtil.readImage('./imgs/exit-ramp.jpg')
-'''
+
 defineLanesWithColor(image1, 'img1', 200, 200, 200)
 defineLanesWithRegion(image1, 'img1', 200, 200, 200)
 defineLanesWithColorAndRegion(image1, 'img1', 200, 200, 200)
@@ -102,6 +102,6 @@ defineLanesWithColor(image2, 'img2', 150, 90, 10)
 defineLanesWithRegion(image2, 'img2', 150, 90, 10)
 defineLanesWithColorAndRegion(image2, 'img2', 50, 90, 10)
 defineLanesWithCanny(image2, 'img2', True)
-defineLanesWithHoughTransform(image2, 'img2')'''
+defineLanesWithHoughTransform(image2, 'img2')
 defineLanesWithHoughTransformAndRegionInterest(image2, 'img2')
 ########################################

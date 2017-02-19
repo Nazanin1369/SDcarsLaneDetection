@@ -3,7 +3,7 @@ import matplotlib.image as mpimg
 import numpy as np
 
 
-def setColorThresholds(image, image_copy, red_threshold=150, green_threshold=90, blue_threshold=10):
+def setColorThresholds(image, image_copy, red_threshold, green_threshold, blue_threshold):
     # set thresholds
     rgb_threshold = [red_threshold, green_threshold, blue_threshold]
 

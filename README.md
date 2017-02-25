@@ -63,4 +63,3 @@ Now that we have all the edges it is time to compute the lane lines by using **H
 ![alt tag](./imgs/img2-hough-transform-lane-selection.jpg)
 
 ![alt tag](./imgs/img2-hough-transform-region-lane-selection.jpg)
-

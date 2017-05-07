@@ -51,6 +51,15 @@ Image after mixing color and region selection images:
 ![alt tag](./imgs/region-color-lane-selection.jpg)
 
 As it happens, lane lines are not always the same color, and even lines of the same color under different lighting conditions (day, night, etc) may fail to be detected by our simple color selection. What we need is to take our algorithm to the next level to detect lines of any color using sophisticated computer vision methods.
-One way is using Canny function and fiddle with the parameters for the Gaussian smoothing and Edge Detection to optimize for detecting the lane lines well without detecting a lot of other stuff.
 
-![alt tag](./imgs/img2edge-select-lane-selection.jpg)
+One way is using **Canny** function and fiddle with the parameters for the Gaussian smoothing and Edge Detection to optimize for detecting the lane lines well without detecting a lot of other stuff.
+
+![alt tag](./imgs/img2-edge-select-lane-selection.jpg)
+
+
+Now that we have all the edges it is time to compute the lane lines by using **Hough Transform** methodology and then only select lines which fell into our lane lines region.
+
+
+![alt tag](./imgs/img2-hough-transform-lane-selection.jpg)
+
+![alt tag](./imgs/img2-hough-transform-region-lane-selection.jpg)

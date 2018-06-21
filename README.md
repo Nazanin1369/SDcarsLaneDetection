@@ -1,7 +1,7 @@
 
 ## Autonomous car lane detection
 
-### Overview
+### Project Overview
 
 Self-driving car needs percieve the world as humans do when they drive.
 Humans use their eyes to figure out how fast they go, where the lane lines are and where are the turns. Car does not have eyes but
